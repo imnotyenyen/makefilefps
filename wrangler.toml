@@ -1,3 +1,16 @@
 name = "makefilefps"
-main = "worker.js"
-compatibility_date = "2024-01-01"
+main = "src/worker.js"
+compatibility_date = "2024-11-01"
+compatibility_flags = ["nodejs_compat"]
+
+# Bật để có URL dạng younj-config.xxx.workers.dev
+workers_dev = true
+
+# KV namespace cho rate limit (khuyến nghị)
+# Sau khi tạo KV, dán id thật vào đây
+# [[kv_namespaces]]
+# binding = "RATE_LIMIT"
+# id = "REPLACE_WITH_YOUR_KV_ID"
+
+# Secrets (KHÔNG ghi vào đây, set qua Dashboard hoặc `wrangler secret put`)
+# - TOKEN_SECRET (BẮT BUỘC — chuỗi ngẫu nhiên >= 32 ký tự)
