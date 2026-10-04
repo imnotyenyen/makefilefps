@@ -2,8 +2,7 @@
   "allowedOrigin": "*",
   "auth": {
     "passwords": [
-      "younjtest",
-      "vip2026"
+      "3108"
     ],
     "maxAttempts": 3,
     "lockMinutes": 3
