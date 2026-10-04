@@ -1,0 +1,18 @@
+{
+  "allowedOrigin": "*",
+  "auth": {
+    "passwords": [
+      "younj2024",
+      "vip2026"
+    ],
+    "maxAttempts": 3,
+    "lockMinutes": 3
+  },
+  "maintenance": {
+    "enabled": false,
+    "title": "Hệ thống đang nâng cấp",
+    "reason": "Chúng mình đang cập nhật phiên bản mới với nhiều tính năng hot hơn và tối ưu tốc độ xử lý file plist.",
+    "eta": "10:00 · 05/10/2026",
+    "contactUrl": "https://zalo.me/0981309921"
+  }
+}
