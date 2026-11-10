@@ -2,8 +2,7 @@
   "allowedOrigin": "*",
   "auth": {
     "passwords": [
-      "3108",
-      "younjkeymake-RX0FCX6GYI"
+      "3108"
     ],
     "maxAttempts": 3,
     "lockMinutes": 3
